@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Team</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/6f5013579e.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+  <header>
+    <div class="navLink">
+        <div class="leftHeader navHead">
+            <a href="index.html" class="logo"><img src="/Indian_Premier_League_Official_Logo.svg.webp"
+                    alt="IPL Logo" class="iplLogo"></a>
+            <a href="index.html" class="linkTag">
+                <h1 class="homeBtn">HOME</h1>
+            </a>
+        </div>
+    </div>
+  </header>
+
+  <div id="add-team">
+    <h1 id="addTeamHeading">Add a Team</h1>
+    <form id="addteamform">
+      <label>Team Name</label>
+      <input id="teamName" type="text" name="teamName" placeholder="Enter team name here.." class="input" required />
+
+      <label>Team logo Url</label>
+      <input id="teamLogoUrl" type="text" name="logoUrl" placeholder="enter logo URL here.." class="input" required />
+
+      <label>Won count</label>
+      <input id="wonCount" type="number" name="wonCount" maxlength="1" placeholder="enter won count here.." class="input" required />
+
+      <button type="submit">Add team</button>
+    </form>
+  </div>
+  <footer>
+    <div class="footer">
+        <h3>IPL CRICKET TEAMS 2023</h3>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="addTeams.js"></script>
+</body>
+
+</html>

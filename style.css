@@ -1,0 +1,488 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #3795BD;
+}
+
+.iplLogo {
+    width: 130px;
+
+}
+
+.navLink {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFBEB;
+    align-items: center;
+}
+
+.navHead {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.logo {
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
+
+.homeBtn {
+    font-size: 24px;
+    /* border: 2px solid #F8CBA6; */
+    background-color: #3A1078;
+    color: white;
+    border-radius: 5px;
+    height: 3rem;
+    width: 10rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 2rem;
+}
+
+#search {
+    position: relative;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 13px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    top: 23px;
+}
+
+.autocom-box {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+}
+
+.autocom-box {
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+    position: absolute;
+    top: 3.3rem;
+    z-index: 9;
+}
+
+.autocom-box li {
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.autocom-box li {
+    display: block;
+    background-color: white;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.autocom-box li:hover {
+    background: #efefef;
+}
+
+.linkTag {
+    text-decoration: none;
+}
+
+.teams {
+    text-transform: uppercase;
+    font-size: 20px;
+
+    color: white;
+    background-color: #3A1078;
+    border-radius: 5px;
+    height: 3rem;
+    width: 10rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addTeams {
+    margin-right: 10px;
+}
+
+.removeTeams {
+    margin-right: 10px;
+    width: 11rem;
+}
+
+.teamTitle {
+    background-color: #2F58CD;
+    position: relative;
+    top: -1.4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+
+}
+
+.minibox {
+    margin-bottom: 60px;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 370px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 10px 0px;
+    background-image: linear-gradient(rgb(28, 28, 28) 0%, rgb(11, 73, 115) 100%);
+    border-radius: 5px;
+    width: 22%;
+    margin: 10px;
+}
+
+.mn2 {
+    background-image: linear-gradient(rgb(234, 26, 133) 0%, rgb(0, 29, 72) 100%);
+    height: 25rem;
+}
+
+.minibox:hover {
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 10px 5px;
+    margin-top: 3px !important;
+
+    transition: 0.2s ease-in-out;
+}
+
+.miniImage {
+    width: 70%;
+    height: 50%;
+}
+
+.playerImg {
+    position: relative;
+    top: 9px;
+}
+
+.dataodcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg,
+            #ff3cac 0%,
+            #784ba0 50%,
+            #2b86c5 100%);
+    padding: 10px 0;
+    margin: 10px 50px;
+    width: 100%;
+}
+
+.cards {
+    /* background-color: #dddddd; */
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100px; */
+    justify-content: center;
+    padding: 50px 10%;
+}
+
+.gridCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 10%;
+}
+
+.first-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+
+
+
+
+#logo {
+    width: 100px;
+}
+
+#table-team td {
+    border: 1px solid blueviolet;
+    width: 30vw;
+    padding-left: 10vw;
+}
+
+#table-team table {
+    margin-left: 20vw;
+}
+
+.team-page-icon {
+    width: 100px;
+}
+
+#player-details-con {
+    /* display: flex; */
+    width: 65%;
+    height: 34rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-player-det td {
+    border: 1px solid black;
+    width: 22vw;
+    padding-left: 10vw;
+}
+
+#new-player-det table {
+    margin-top: 0.3rem;
+}
+
+#player_detail-img img {
+    width: 35%;
+    margin: 5px 0 -10px 0;
+    margin-left: 19vw;
+}
+
+#player-details-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-team {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#addteamform {
+    background-color: #BFDCE5;
+    background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+    border-radius: 20px;
+    margin: 10px 0;
+    width: 45%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 60px 0;
+}
+
+#addteamform label {
+    font-size: 24px;
+    padding: 20px 0 0 0;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px
+}
+
+
+#addteamform button {
+    display: block;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: 600;
+    color: #fff;
+    padding: 16px 30px;
+    letter-spacing: 2px;
+    background-color: #001f3f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addteamform button:hover {
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+}
+
+#slogan {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #d8e60d 0%, #6e5d61 100%);
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+#slogan3 {
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #7818c1 0%, #de354f 100%);
+    cursor: pointer;
+}
+
+#slogan4 {
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #67229c 0%, #de354f 100%);
+    cursor: pointer;
+}
+
+#addTeamHeading {
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #2F58CD;
+    color: beige;
+    /* background-image: linear-gradient(90deg, #67229c 0%, #de354f 100%); */
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+}
+
+#head-con4 {
+    margin-top: -70px;
+    width: 100%;
+    box-shadow: 2px 4px 2px rgb(17 16 16 / 50%);
+    position: fixed;
+    height: 70px;
+
+    background-color: #dddddd;
+}
+
+.dataodcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg,
+            #ff3cac 0%,
+            #784ba0 50%,
+            #2b86c5 100%);
+    padding: 10px 0;
+    margin: 10px 50px;
+    width: 100%;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+
+    padding: 50px;
+}
+
+#table-team {
+    width: 81%;
+    /* border: 1px solid black; */
+}
+
+#table-team table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #3ac5a2;
+    background-image: linear-gradient(90deg, #a852a1 0%, #115463 100%);
+}
+
+#table-team td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.player-detail td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: #001f3f;
+    color: white;
+    background-image: radial-gradient(circle 976px at 51.2% 51%,
+            rgb(103, 11, 75) 0%,
+            rgb(16, 141, 157) 0%,
+            rgb(157, 24, 157) 17.3%,
+            rgba(11, 27, 103, 1) 58.8%,
+            rgba(11, 27, 103, 1) 71.4%,
+            rgba(16, 66, 157, 1) 100.2%,
+            rgba(187, 187, 187, 1) 100.2%);
+}
+
+.player-detail {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #191825;
+    color: #C0EEF2;
+    font-size: 28px;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

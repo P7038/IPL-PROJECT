@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Player</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <header>
+    <div class="navLink">
+        <div class="leftHeader navHead">
+            <a href="index.html" class="logo"><img src="/Indian_Premier_League_Official_Logo.svg.webp"
+                    alt="IPL Logo" class="iplLogo"></a>
+            <a href="index.html" class="linkTag">
+                <h1 class="homeBtn">HOME</h1>
+            </a>
+        </div>
+    </div>
+  </header>
+
+
+  <div id="add-team">
+    <h1 id="addTeamHeading">Add a Player</h1>
+    <form id="addteamform">
+      <label>Name</label> 
+      <input id="inp1" type="text" name="playerName" placeholder="Enter player name here.." class="input" required>
+
+      <label>Price in Crore</label>
+      <input id="inp2" type="number" name="price" maxlength="2" placeholder="enter price for player.." class="input" required>
+
+      <label>Select Player playing</label>
+      <select id="inp3" type="text" name="isPlaying" placeholder="enter playing status here.." class="input" required>
+        <option value="true">true</option>
+        <option value="false">false</option>
+      </select>
+
+      <label>Select Player Role</label>
+      <select id="inp4" type="text" name="role" class="input" required>
+        <option value="ALL-Rounder">ALL-Rounder</option>
+        <option value="Batsman">Batsman</option>
+        <option value="Bowler">Bowler</option>
+      </select>
+
+      <label>Image URL</label> 
+      <input id="inp5" type="text" name="playerImg" placeholder="Enter player image url.." class="input" required>
+
+      <label>Enter Player Team</label>
+      <select id="inp6" type="text" name="teamSelect" class="input" required></select>
+
+      <button type="submit" id="submit">Add Player</button>
+    </form>
+
+  </div>
+  <footer>
+    <div class="footer">
+        <h3>IPL CRICKET TEAMS 2023</h3>
+    </div>
+
+  </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="addPlayer.js"></script>
+</body>
+
+</html>
